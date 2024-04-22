@@ -6,16 +6,6 @@
 Jag har gått in i XML-filen och ändrat värdet på "Hello World!" till "I love Sims 4!", detta ändrar texten som visas
 på appen. Kodstycket nedanför visar hur detta är gjort.
 
-## Följande grundsyn gäller dugga-svar:
-
-- Ett kortfattat svar är att föredra. Svar som är längre än en sida text (skärmdumpar och programkod exkluderat) är onödigt långt.
-- Svaret skall ha minst en snutt programkod.
-- Svaret skall inkludera en kort övergripande förklarande text som redogör för vad respektive snutt programkod gör eller som svarar på annan teorifråga.
-- Svaret skall ha minst en skärmdump. Skärmdumpar skall illustrera exekvering av relevant programkod. Eventuell text i skärmdumpar måste vara läsbar.
-- I de fall detta efterfrågas, dela upp delar av ditt svar i för- och nackdelar. Dina för- respektive nackdelar skall vara i form av punktlistor med kortare stycken (3-4 meningar).
-
-Programkod ska se ut som exemplet nedan. Koden måste vara korrekt indenterad då den blir lättare att läsa vilket gör det lättare att hitta syntaktiska fel.
-
 ```
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -37,8 +27,6 @@ Programkod ska se ut som exemplet nedan. Koden måste vara korrekt indenterad d�
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 ```
-
-Bilder läggs i samma mapp som markdown-filen.
 
 ![](ilovesims.png)
 
