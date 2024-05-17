@@ -2,8 +2,17 @@
 # Rapport
 
 **Skriv din rapport här!**
+Först la jag till en ny string resource (new_string):
+```
+<resources>
+    <string name="app_name">Värdelösa appen</string>
+    <string name="new_string">New text message</string>
+    <string name="action_external_web">External Web Page</string>
+    <string name="action_internal_web">Internal Web Page</string>
+</resources>
+```
 
-Jag har gått in i XML-filen och ändrat värdet på "Hello World!" till "I love Sims 4!", detta ändrar texten som visas
+Jag har sen gått in i ```content_main.xml``` och ändrat värdet på "Hello World!" till "@string/new_string", detta ändrar texten som visas
 på appen. Kodstycket nedanför visar hur detta är gjort.
 
 ```
@@ -27,8 +36,7 @@ på appen. Kodstycket nedanför visar hur detta är gjort.
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 ```
-
-![](ilovesims.png)
+![Screenshot_20240517_110347](https://github.com/b21oscpe/mobileapp-programming-hello/assets/102578165/7f5daf8f-26e3-436b-a5de-898fed65ff88)
 
 Läs gärna:
 
